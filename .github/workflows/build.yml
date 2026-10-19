@@ -12,5 +12,5 @@ jobs:
       - run: chmod +x gradlew && ./gradlew build
       - uses: actions/upload-artifact@v4
         with:
-          name: 802-client
+          name: "802-client"
           path: build/libs/*.jar
